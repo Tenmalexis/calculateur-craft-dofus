@@ -8,7 +8,7 @@
 
 ## 🔗 Accès direct
 
-👉 **[Ouvrir le Calculateur Craft](https://tenmalexis.github.io/calculateur-craft-dofus/Calculateur%20Craft%20Dofus.html)**
+👉 **[Ouvrir le Calculateur Craft]([https://tenmalexis.github.io/calculateur-craft-dofus/Calculateur%20Craft%20Dofus.html](https://tenmalexis.github.io/Calculateur-Craft-Dofus/Calculateur%20Craft%20Dofus%20TENMA.html))**
 
 ---
 
