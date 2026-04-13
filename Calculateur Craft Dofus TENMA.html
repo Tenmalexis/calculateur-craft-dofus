@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0069)file:///C:/Users/adtg6/Downloads/Calculateur_Craft_Dofus_TENMA_8.html -->
+<!-- saved from url=(0064)file:///C:/Users/adtg6/Downloads/Calculateur_Craft_Dofus_54.html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="chrome-extension://cpmkedoipcpimgecpmgpldfpohjplkpp/gt-window-provider-hedera.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,6 +88,10 @@ input[type=text]:focus,input[type=number]:focus{outline:none;border-color:#e9456
 .sug-item .sug-lvl{font-size:11px;color:#666;white-space:nowrap}
 .sug-item .sug-type{font-size:11px;color:#9b59b6;white-space:nowrap}
 .search-status{font-size:13px;color:#e0e0e0;padding:8px 12px;font-style:italic}
+.res-price-mem{border-color:#9b59b6!important;background:#1a0a2a!important;}
+.sort-btn{padding:6px 12px;border-radius:6px;font-size:11px;font-weight:bold;cursor:pointer;border:1px solid #2a2a4a;background:#1e1e35;color:#666;font-family:Arial,sans-serif;white-space:nowrap;transition:all 0.15s}
+.sort-btn:hover{color:#aaa;border-color:#555}
+.sort-btn-active{border-color:#e94560!important;color:#e94560!important;background:#2a1020!important}
 .api-badge{font-size:10px;color:#555;text-align:right;padding:2px 8px 4px;border-top:1px solid #2a2a4a}
 
 </style>
@@ -115,7 +119,7 @@ input[type=text]:focus,input[type=number]:focus{outline:none;border-color:#e9456
   <div class="section">
     <div class="section-title s-purple">▸ Équipement</div>
     <div class="equip-row">
-      <img id="equip-img" class="equip-img" src="./Calculateur Craft Dofus TENMA_files/Calculateur_Craft_Dofus_54.html" alt="">
+      <img id="equip-img" class="equip-img" src="file:///C:/Users/adtg6/Downloads/Calculateur_Craft_Dofus_54.html" alt="">
       <span class="equip-label">Nom :</span>
       <div class="search-wrap">
         <input class="equip-input" type="text" id="equip-name" placeholder="Rechercher un item Dofus... (ex: Cape de Glourdorak)" autocomplete="off" oninput="onSearch(this.value)" onkeydown="onSearchKey(event)">
@@ -128,7 +132,7 @@ input[type=text]:focus,input[type=number]:focus{outline:none;border-color:#e9456
     <div class="section-title s-red">▸ Ressources nécessaires</div>
     <table>
       <thead><tr><th style="width:5%"></th><th style="width:31%">Ressource</th><th style="width:15%">Qté</th><th style="width:21%">Prix unit. (k)</th><th style="width:20%">Sous-total</th><th style="width:8%"></th></tr></thead>
-      <tbody id="rows"><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:80px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:80px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:80px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:80px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:80px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:80px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:80px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:80px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr></tbody>
+      <tbody id="rows"><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:56px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:56px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:56px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:56px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:56px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:56px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:56px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr><tr><td style="width:36px;padding:4px 6px"><div style="width:28px"></div></td><td><input type="text" placeholder="Nom ressource" value="" oninput="calc()"></td><td><input type="number" value="1" min="0" style="width:56px;text-align:center" oninput="calc()"></td><td><input type="number" value="0" min="0" style="text-align:right" oninput="calc()"></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td></tr></tbody>
       <tfoot>
         <tr class="total-row">
           <td colspan="3" style="text-align:right;padding:9px 12px">Coût total de craft</td>
@@ -156,7 +160,7 @@ input[type=text]:focus,input[type=number]:focus{outline:none;border-color:#e9456
     </div>
     <div style="margin:0 18px 12px;padding:10px 14px;background:#12122a;border-radius:8px;border:1px solid #2a2a4a;font-size:11px;color:#666;line-height:1.7">
       <div>📌 <strong style="color:#aaa">Prix net</strong> = ce qui revient réellement en banque après la taxe HDV de <strong style="color:#aaa">2%</strong></div>
-      <div id="explication-diff" style="margin-top:4px;color:#666">💡 Remplis les deux prix pour voir la différence entre marché et ton prix de vente final.</div>
+      <div id="explication-diff" style="margin-top:4px;color:#666">💡 Remplis les deux prix pour voir la différence entre marché et ton prix vendeur.</div>
     </div>
   </div>
 
@@ -191,6 +195,12 @@ input[type=text]:focus,input[type=number]:focus{outline:none;border-color:#e9456
 
   <div class="section">
     <div class="section-title s-gray">▸ Sauvegardes</div>
+    <div style="display:flex;gap:6px;padding:12px 18px 8px;flex-wrap:wrap">
+      <button id="sort-btn-recent" onclick="setSavesSort('recent')" class="sort-btn sort-btn-active">⬇ Récent</button>
+      <button id="sort-btn-ancien" onclick="setSavesSort('ancien')" class="sort-btn">⬆ Ancien</button>
+      <button id="sort-btn-nom" onclick="setSavesSort('nom')" class="sort-btn">🔤 Nom A→Z</button>
+      <button id="sort-btn-rentabilite" onclick="setSavesSort('rentabilite')" class="sort-btn">📈 Rentabilité</button>
+    </div>
     <div style="display:flex;gap:8px;padding:14px 18px 12px">
       <button onclick="exportSaves()" style="flex:1;padding:9px;border-radius:8px;font-size:12px;font-weight:bold;cursor:pointer;border:1px solid #1e5c3a;background:#1e1e35;color:#2ecc71;font-family:Arial,sans-serif">📤 Exporter (.json)</button>
       <label style="flex:1;padding:9px;border-radius:8px;font-size:12px;font-weight:bold;cursor:pointer;border:1px solid #6b4c00;background:#1e1e35;color:#f39c12;font-family:Arial,sans-serif;text-align:center">
@@ -198,7 +208,7 @@ input[type=text]:focus,input[type=number]:focus{outline:none;border-color:#e9456
         <input type="file" accept=".json" style="display:none" onchange="importSaves(this)">
       </label>
     </div>
-    <div class="saves-list" id="saves-list" style="padding:0 18px 14px"><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/82563-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Bouclier de Glourdorak</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+257 600 k (+4.6%)</span><button class="si-load" onclick="loadSave(1774210338341)">Charger</button><button class="si-del" onclick="deleteSave(1774210338341)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/82562-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Pavois frigorifié du Chevalier de Glace</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+110 300 k (+2.0%)</span><button class="si-load" onclick="loadSave(1774210750389)">Charger</button><button class="si-del" onclick="deleteSave(1774210750389)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/6761-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Lame givrée du Chevalier de Glace</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+624 300 k (+8.7%)</span><button class="si-load" onclick="loadSave(1774210927268)">Charger</button><button class="si-del" onclick="deleteSave(1774210927268)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/17436-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Carapace de Torkélonia</span><span class="si-date">22/03/2026</span><span class="si-profit neg">-528 760 k (-12.4%)</span><button class="si-load" onclick="loadSave(1774211104988)">Charger</button><button class="si-del" onclick="deleteSave(1774211104988)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/217020-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Prygen</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+43 640 k (+1.5%)</span><button class="si-load" onclick="loadSave(1774211644276)">Charger</button><button class="si-del" onclick="deleteSave(1774211644276)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/217021-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Prycipithon Mate</span><span class="si-date">22/03/2026</span><span class="si-profit neg">-108 860 k (-3.4%)</span><button class="si-load" onclick="loadSave(1774211910324)">Charger</button><button class="si-del" onclick="deleteSave(1774211910324)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/151265-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Arcaniste</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+227 740 k (+12.5%)</span><button class="si-load" onclick="loadSave(1774211998019)">Charger</button><button class="si-del" onclick="deleteSave(1774211998019)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/11240-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Bottes du Cycloïde</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+77 200 k (+4.4%)</span><button class="si-load" onclick="loadSave(1774212175849)">Charger</button><button class="si-del" onclick="deleteSave(1774212175849)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/16349-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Coiffe de Padgref</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+542 950 k (+44.5%)</span><button class="si-load" onclick="loadSave(1774212846165)">Charger</button><button class="si-del" onclick="deleteSave(1774212846165)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/7749-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Masse de Glourdorak</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+0 k</span><button class="si-load" onclick="loadSave(1774209868941)">Charger</button><button class="si-del" onclick="deleteSave(1774209868941)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/82561-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Disque de Culbutœuf</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+891 000 k (+15.4%)</span><button class="si-load" onclick="loadSave(1774210135485)">Charger</button><button class="si-del" onclick="deleteSave(1774210135485)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/2096-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Arc de Culbutœuf</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+1 297 200 k (+24.2%)</span><button class="si-load" onclick="loadSave(1774210179236)">Charger</button><button class="si-del" onclick="deleteSave(1774210179236)">×</button></div><div class="save-item"><img class="si-img" src="./Calculateur Craft Dofus TENMA_files/17669-64.png" onerror="this.style.display=&#39;none&#39;"><span class="si-name">Cape de Glourdorak</span><span class="si-date">22/03/2026</span><span class="si-profit pos">+447 000 k (+5.5%)</span><button class="si-load" onclick="loadSave(1774210248380)">Charger</button><button class="si-del" onclick="deleteSave(1774210248380)">×</button></div></div>
+    <div class="saves-list" id="saves-list" style="padding:0 18px 14px"><p class="no-saves">Aucune sauvegarde pour l'instant.</p></div>
   </div>
 
 </div>
@@ -207,8 +217,78 @@ let searchTimer=null;
 let currentSugs=[];
 let activeSugIdx=-1;
 let saves=JSON.parse(localStorage.getItem('dofus_craft_saves')||'[]');
+// Mémoire partagée des prix de ressources (nom normalisé → prix)
+let resourcePrices=JSON.parse(localStorage.getItem('dofus_resource_prices')||'{}');
+let savesSortOrder='recent'; // 'recent' ou 'ancien'
 function fmt(n){return Math.round(n).toLocaleString('fr-FR')}
 function fmtPct(n){return(n>=0?'+':'')+n.toFixed(1)+'%'}
+
+// Normalise un nom de ressource pour la clé de stockage
+function normalizeResourceName(name){return (name||'').trim().toLowerCase();}
+
+// Sauvegarde le prix d'une ressource dans la mémoire partagée
+function saveResourcePrice(name,prix){
+  const key=normalizeResourceName(name);
+  if(!key||prix<=0)return;
+  resourcePrices[key]=prix;
+  localStorage.setItem('dofus_resource_prices',JSON.stringify(resourcePrices));
+}
+
+// Propagation : met à jour toutes les lignes du tableau ET toutes les sauvegardes ayant la même ressource
+function propagatePrice(name,prix){
+  saveResourcePrice(name,prix);
+  const key=normalizeResourceName(name);
+
+  // 1. Propager dans les lignes actuelles du tableau
+  document.querySelectorAll('#rows tr').forEach(tr=>{
+    const txt=tr.querySelector('input[type=text]');
+    const nums=tr.querySelectorAll('input[type=number]');
+    if(!txt||!nums[1])return;
+    if(normalizeResourceName(txt.value)===key){
+      if(parseFloat(nums[1].value)!==prix)nums[1].value=prix;
+      nums[1].classList.add('res-price-mem');
+    }
+  });
+
+  // 2. Propager dans toutes les sauvegardes stockées (recalcul profit)
+  let savesUpdated=false;
+  saves.forEach(s=>{
+    if(!s.rows)return;
+    let changed=false;
+    s.rows.forEach(r=>{
+      if(normalizeResourceName(r.name)===key&&r.prix!==prix){
+        r.prix=prix;
+        changed=true;
+      }
+    });
+    if(changed){
+      // Recalculer le profit de cette sauvegarde
+      const cout=s.rows.reduce((acc,r)=>acc+(r.qty*r.prix),0);
+      const TAXE=s.taxe||2;
+      const net=(s.hdv||0)*(1-TAXE/100);
+      s.profit=net-cout;
+      savesUpdated=true;
+    }
+  });
+  if(savesUpdated){
+    localStorage.setItem('dofus_craft_saves',JSON.stringify(saves));
+    renderSaves();
+  }
+
+  calc();
+}
+
+// Au chargement d'une ligne, applique le prix mémorisé si le prix actuel est 0
+function applyMemorizedPriceToRow(tr){
+  const txt=tr.querySelector('input[type=text]');
+  const nums=tr.querySelectorAll('input[type=number]');
+  if(!txt||!nums[1])return;
+  const key=normalizeResourceName(txt.value);
+  if(key&&resourcePrices[key]&&(parseFloat(nums[1].value)||0)===0){
+    nums[1].value=resourcePrices[key];
+    calc();
+  }
+}
 
 function getRows(){
   return Array.from(document.querySelectorAll('#rows tr')).map(tr=>{
@@ -221,16 +301,53 @@ function getRows(){
 }
 
 function addRow(name='',qty=1,prix=0,img=''){
+  // Si prix=0 et qu'on a un prix mémorisé pour cette ressource, on l'utilise
+  if(prix===0&&name){
+    const key=normalizeResourceName(name);
+    if(resourcePrices[key])prix=resourcePrices[key];
+  }
   const tbody=document.getElementById('rows');
   const tr=document.createElement('tr');
   const imgTag=img?`<img src="${img}" class="res-img" onerror="this.style.display='none'" />`:'<div style="width:28px"></div>';
-  tr.innerHTML=`<td style="width:36px;padding:4px 6px">${imgTag}</td><td><input type="text" placeholder="Nom ressource" value="${name}" oninput="calc()" /></td><td><input type="number" value="${qty}" min="0" style="width:80px;text-align:center" oninput="calc()" /></td><td><input type="number" value="${prix}" min="0" style="text-align:right" oninput="calc()" /></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td>`;
+  tr.innerHTML=`<td style="width:36px;padding:4px 6px">${imgTag}</td><td><input type="text" placeholder="Nom ressource" value="${name}" oninput="onResourceNameChange(this)" /></td><td><input type="number" value="${qty}" min="0" style="width:80px;text-align:center" oninput="calc()" /></td><td><input type="number" value="${prix}" min="0" style="text-align:right" oninput="onResourcePriceChange(this)" /></td><td class="subtotal">0</td><td><button class="del-btn" onclick="delRow(this)">×</button></td>`;
   tbody.appendChild(tr);
   calc();
 }
 
 function delRow(btn){
   if(document.querySelectorAll('#rows tr').length>1){btn.closest('tr').remove();calc();}
+}
+
+// Appelé quand le nom d'une ressource change : applique le prix mémorisé si dispo
+function onResourceNameChange(input){
+  const tr=input.closest('tr');
+  if(tr){
+    const nums=tr.querySelectorAll('input[type=number]');
+    if(nums[1]){
+      const key=normalizeResourceName(input.value);
+      if(key&&resourcePrices[key]&&(parseFloat(nums[1].value)||0)===0){
+        nums[1].value=resourcePrices[key];
+        nums[1].classList.add('res-price-mem');
+      }else if(!key||!resourcePrices[key]){
+        nums[1].classList.remove('res-price-mem');
+      }
+    }
+  }
+  calc();
+}
+
+// Appelé quand le prix d'une ressource change : propage à toutes les lignes identiques
+function onResourcePriceChange(input){
+  const tr=input.closest('tr');
+  if(tr){
+    const txt=tr.querySelector('input[type=text]');
+    const prix=parseFloat(input.value)||0;
+    if(txt&&txt.value.trim()&&prix>0){
+      propagatePrice(txt.value.trim(),prix);
+      return; // propagatePrice appelle calc()
+    }
+  }
+  calc();
 }
 
 function calc(){
@@ -349,10 +466,57 @@ function deleteSave(id){
   renderSaves();
 }
 
+// savesSortDir : 'asc' ou 'desc' (pour nom et rentabilité)
+let savesSortDir='desc';
+
+function setSavesSort(order){
+  if(savesSortOrder===order){
+    // Toggle direction pour nom et rentabilité
+    if(order==='nom'||order==='rentabilite') savesSortDir=savesSortDir==='asc'?'desc':'asc';
+  } else {
+    savesSortOrder=order;
+    savesSortDir='desc';
+  }
+  // Mettre à jour les labels et classes actives
+  const labels={
+    recent:  '⬇ Récent',
+    ancien:  '⬆ Ancien',
+    nom:     savesSortDir==='asc'?'🔤 Nom A→Z':'🔤 Nom Z→A',
+    rentabilite: savesSortDir==='asc'?'📉 Moins rent.':'📈 Plus rent.'
+  };
+  ['recent','ancien','nom','rentabilite'].forEach(k=>{
+    const btn=document.getElementById('sort-btn-'+k);
+    if(!btn)return;
+    btn.classList.toggle('sort-btn-active', k===savesSortOrder);
+    if(k==='nom') btn.textContent=labels.nom;
+    if(k==='rentabilite') btn.textContent=labels.rentabilite;
+  });
+  renderSaves();
+}
+
 function renderSaves(){
   const el=document.getElementById('saves-list');
   if(saves.length===0){el.innerHTML='<p class="no-saves">Aucune sauvegarde pour l\'instant.</p>';return;}
-  el.innerHTML=saves.map(s=>{
+  let sorted=[...saves];
+  if(savesSortOrder==='recent'){
+    // déjà dans l'ordre de sauvegarde (plus récent en tête)
+  } else if(savesSortOrder==='ancien'){
+    sorted.reverse();
+  } else if(savesSortOrder==='nom'){
+    sorted.sort((a,b)=>{
+      const cmp=a.name.localeCompare(b.name,'fr',{sensitivity:'base'});
+      return savesSortDir==='asc'?cmp:-cmp;
+    });
+  } else if(savesSortOrder==='rentabilite'){
+    sorted.sort((a,b)=>{
+      const coutA=a.rows?a.rows.reduce((acc,r)=>acc+(r.qty*r.prix),0):0;
+      const coutB=b.rows?b.rows.reduce((acc,r)=>acc+(r.qty*r.prix),0):0;
+      const pctA=coutA>0?(a.profit/coutA*100):-Infinity;
+      const pctB=coutB>0?(b.profit/coutB*100):-Infinity;
+      return savesSortDir==='desc'?(pctB-pctA):(pctA-pctB);
+    });
+  }
+  el.innerHTML=sorted.map(s=>{
     const cout=s.rows?s.rows.reduce((acc,r)=>acc+(r.qty*r.prix),0):0;
     const pct=(cout>0)?((s.profit/cout)*100):null;
     const pctStr=pct!==null?` (${pct>=0?'+':''}${pct.toFixed(1)}%)`:'';
